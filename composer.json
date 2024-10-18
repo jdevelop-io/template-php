@@ -2,6 +2,12 @@
   "name": "jdevelop/template-php",
   "type": "project",
   "license": "MIT",
+  "authors": [
+    {
+      "name": "Jean-Denis VIDOT",
+      "email": "contact@jdevelop.io"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Jdevelop\\TemplatePhp\\": "src/"
@@ -12,12 +18,6 @@
       "Jdevelop\\TemplatePhp\\Test\\Unit\\": "test/unit"
     }
   },
-  "authors": [
-    {
-      "name": "Jean-Denis VIDOT",
-      "email": "contact@jdevelop.io"
-    }
-  ],
   "require": {
     "php": "^8.3"
   },
