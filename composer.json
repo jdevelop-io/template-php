@@ -18,6 +18,9 @@
       "Jdevelop\\TemplatePhp\\Test\\Unit\\": "test/unit"
     }
   },
+  "scripts": {
+    "test": "phpunit --no-coverage"
+  },
   "require": {
     "php": "^8.3"
   },
