@@ -19,7 +19,8 @@
     }
   },
   "scripts": {
-    "test": "phpunit --no-coverage"
+    "test": "phpunit --no-coverage",
+    "test:coverage:html": "XDEBUG_MODE=coverage phpunit --coverage-html .coverage"
   },
   "require": {
     "php": "^8.3"
