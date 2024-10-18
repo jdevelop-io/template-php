@@ -7,6 +7,11 @@
             "Jdevelop\\TemplatePhp\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Jdevelop\\TemplatePhp\\Test\\Unit\\": "test/unit"
+        }
+    },
     "authors": [
         {
             "name": "Jean-Denis VIDOT",
