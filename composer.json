@@ -12,5 +12,8 @@
             "name": "Jean-Denis VIDOT",
             "email": "contact@jdevelop.io"
         }
-    ]
+    ],
+    "require": {
+        "php": "^8.3"
+    }
 }
