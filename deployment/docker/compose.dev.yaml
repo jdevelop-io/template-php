@@ -1,15 +1,4 @@
 services:
-  composer:
-    env_file: ../../config/environments/.env.local
-    build:
-      context: ../../
-      dockerfile: deployment/docker/composer/Dockerfile
-      args:
-        COMPOSER_VERSION: ${COMPOSER_VERSION:-lts}
-    volumes:
-      - ../../:/app
-    working_dir: /app
-
   php:
     env_file: ../../config/environments/.env.local
     build:
@@ -17,6 +6,7 @@ services:
       dockerfile: deployment/docker/php/Dockerfile
       args:
         PHP_VERSION: ${PHP_VERSION:-8.3}
+        COMPOSER_VERSION: ${COMPOSER_VERSION:-lts}
+    working_dir: /app
     volumes:
       - ../../:/app
-    working_dir: /app

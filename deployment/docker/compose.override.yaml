@@ -1,4 +1,4 @@
 services:
-  composer:
+  tests:
     profiles:
       - tool
