@@ -21,5 +21,8 @@
     "psr-4": {
       "JDevelop\\TemplatePhp\\Tests\\Unit\\": "test/unit"
     }
+  },
+  "require": {
+    "php": "^8.3"
   }
 }
