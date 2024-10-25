@@ -31,3 +31,9 @@ jobs:
 
       - name: Run tests
         run: vendor/bin/phpunit --coverage-text
+
+      - name: Upload coverage
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage
