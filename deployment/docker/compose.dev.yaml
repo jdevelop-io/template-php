@@ -1,9 +1,11 @@
 services:
   composer:
+    env_file: ../../config/environments/.env.local
     build:
       context: ../../
       dockerfile: deployment/docker/composer/Dockerfile
-    env_file: ../../config/environments/.env.local
+      args:
+        COMPOSER_VERSION: ${COMPOSER_VERSION:-lts}
     volumes:
       - ../../:/app
     working_dir: /app
