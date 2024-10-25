@@ -1,0 +1,9 @@
+services:
+  composer:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/composer/Dockerfile
+    env_file: ../../config/environments/.env.local
+    volumes:
+      - ../../:/app
+    working_dir: /app
