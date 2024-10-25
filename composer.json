@@ -1,0 +1,25 @@
+{
+  "name": "jdevelop/template-php",
+  "description": "A streamlined, ready-to-use GitHub template for PHP projects, offering best practices, automated setup, and essential tools to accelerate development and ensure maintainable code.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "project",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Jean-Denis VIDOT",
+      "email": "contact@jdevelop.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JDevelop\\TemplatePhp\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JDevelop\\TemplatePhp\\Tests\\Unit\\": "test/unit"
+    }
+  }
+}
