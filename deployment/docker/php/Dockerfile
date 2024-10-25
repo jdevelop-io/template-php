@@ -5,6 +5,14 @@ FROM composer:${COMPOSER_VERSION} AS composer
 
 FROM php:${PHP_VERSION}-fpm AS base
 
+# Update package list
+RUN apt-get update
+
+# Install composer dependencies
+RUN apt-get install -y \
+    git \
+    unzip
+
 # Install composer
 COPY --from=composer /usr/bin/composer /usr/bin/composer
 
