@@ -11,11 +11,10 @@ services:
     working_dir: /app
     volumes:
       - ../../:/app
+      - ./php/config/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+      - ./php/config/phpunit.ini:/usr/local/etc/php/conf.d/phpunit.ini
 
   tests:
     extends:
       service: php
-    volumes:
-      - ./php/config/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-      - ./php/config/phpunit.ini:/usr/local/etc/php/conf.d/phpunit.ini
     entrypoint: vendor/bin/phpunit
