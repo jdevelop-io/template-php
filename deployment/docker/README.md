@@ -35,3 +35,9 @@ To run phpstan, run the following command:
 ```bash
 docker compose -f compose.dev.yaml -f compose.override.yaml run --rm phpstan
 ```
+
+To run phpmd, run the following command:
+
+```bash
+docker compose -f compose.dev.yaml -f compose.override.yaml run --rm phpmd
+```
