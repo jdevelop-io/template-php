@@ -12,8 +12,15 @@ docker compose -f compose.dev.yaml -f compose.override.yaml build
 
 ## Running the Docker containers
 
+To run composer commands, run the following command:
+
+```bash
+docker compose -f compose.dev.yaml -f compose.override.yaml run --rm composer
+```
+
 To run tests, run the following command:
 
 ```bash
 docker compose -f compose.dev.yaml -f compose.override.yaml run --rm tests
 ```
+
