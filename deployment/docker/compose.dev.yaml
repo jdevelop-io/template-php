@@ -18,6 +18,8 @@ services:
     extends:
       service: php
     entrypoint: composer
+    profiles:
+      - tool
 
   tests:
     extends:
