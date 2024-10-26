@@ -23,7 +23,7 @@
     }
   },
   "scripts": {
-    "test": "phpunit",
+    "test": "phpunit -c config/phpunit/phpunit.xml",
     "phpcs": "phpcs --standard=PSR12 src test",
     "phpstan": "phpstan analyse -c config/phpstan/phpstan.neon"
   },
