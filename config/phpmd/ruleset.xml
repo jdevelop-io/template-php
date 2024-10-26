@@ -12,4 +12,5 @@
     <rule ref="rulesets/codesize.xml"/>
     <rule ref="rulesets/naming.xml"/>
     <rule ref="rulesets/unusedcode.xml"/>
+    <rule ref="rulesets/design.xml"/>
 </ruleset>
