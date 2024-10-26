@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 final class CalculatorTest extends TestCase
 {
     /**
-     * @return iterable<string, <iterable<int>>>
+     * @return iterable<string, iterable<int>>
      */
     public static function additionDataProvider(): iterable
     {
