@@ -6,8 +6,8 @@ namespace JDevelop\TemplatePhp;
 
 final class Calculator
 {
-    public function add(int $a, int $b): int
+    public function add(int $number1, int $number2): int
     {
-        return $a + $b;
+        return $number1 + $number2;
     }
 }
