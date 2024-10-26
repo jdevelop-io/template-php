@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test": "phpunit",
-    "phpcs": "phpcs --standard=PSR12 src test"
+    "phpcs": "phpcs --standard=PSR12 src test",
+    "phpstan": "phpstan analyse -c phpstan.neon"
   },
   "require": {
     "php": "^8.3"

@@ -30,3 +30,8 @@ services:
     extends:
       service: composer
     command: run phpcs
+
+  phpstan:
+    extends:
+      service: composer
+    command: run phpstan
