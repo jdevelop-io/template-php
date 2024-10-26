@@ -29,3 +29,9 @@ To run phpcs, run the following command:
 ```bash
 docker compose -f compose.dev.yaml -f compose.override.yaml run --rm phpcs
 ```
+
+To run phpstan, run the following command:
+
+```bash
+docker compose -f compose.dev.yaml -f compose.override.yaml run --rm phpstan
+```
