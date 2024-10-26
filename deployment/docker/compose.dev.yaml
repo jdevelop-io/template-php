@@ -23,3 +23,8 @@ services:
     extends:
       service: composer
     command: run test
+
+  phpcs:
+    extends:
+      service: composer
+    command: run phpcs

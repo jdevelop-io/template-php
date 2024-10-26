@@ -23,7 +23,8 @@
     }
   },
   "scripts": {
-    "test": "phpunit"
+    "test": "phpunit",
+    "phpcs": "phpcs --standard=PSR12 src test"
   },
   "require": {
     "php": "^8.3"
