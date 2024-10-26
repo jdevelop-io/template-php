@@ -24,3 +24,8 @@ To run tests, run the following command:
 docker compose -f compose.dev.yaml -f compose.override.yaml run --rm tests
 ```
 
+To run phpcs, run the following command:
+
+```bash
+docker compose -f compose.dev.yaml -f compose.override.yaml run --rm phpcs
+```
