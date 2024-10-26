@@ -1,5 +1,6 @@
 # Template PHP
 
+[![Code quality](https://github.com/jdevelop-io/template-php/actions/workflows/quality.yaml/badge.svg)](https://github.com/jdevelop-io/template-php/actions/workflows/quality.yaml)
 [![Test](https://github.com/jdevelop-io/template-php/actions/workflows/test.yaml/badge.svg)](https://github.com/jdevelop-io/template-php/actions/workflows/test.yaml)
 [![Docker](https://github.com/jdevelop-io/template-php/actions/workflows/docker.yaml/badge.svg)](https://github.com/jdevelop-io/template-php/actions/workflows/docker.yaml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
