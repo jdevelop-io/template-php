@@ -35,3 +35,8 @@ services:
     extends:
       service: composer
     command: run phpstan
+
+  phpmd:
+    extends:
+      service: composer
+    command: run phpmd
