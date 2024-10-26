@@ -25,7 +25,7 @@
   "scripts": {
     "test": "phpunit",
     "phpcs": "phpcs --standard=PSR12 src test",
-    "phpstan": "phpstan analyse -c phpstan.neon"
+    "phpstan": "phpstan analyse -c config/phpstan/phpstan.neon"
   },
   "require": {
     "php": "^8.3"
