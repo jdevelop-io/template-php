@@ -33,7 +33,7 @@ jobs:
         run: composer run test -- --coverage-text
 
       - name: Upload coverage
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: coverage
           path: coverage
